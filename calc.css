@@ -1,0 +1,30 @@
+#calc {
+    background: blue;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.screen {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 20px;
+}
+
+.container {
+    width: 30%;
+}
